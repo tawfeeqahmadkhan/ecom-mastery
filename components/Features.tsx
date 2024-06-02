@@ -52,7 +52,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
         {title}
       </h2>
       {/* <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
-        {description}
+        {description
       </p> */}
     </li>
   )

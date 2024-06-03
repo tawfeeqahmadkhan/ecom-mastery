@@ -9,14 +9,18 @@ const Navbar = () => {
       <Link href="/">
         <Image src="/ecommastery.jpg" alt="logo" width={74} height={29} />
       </Link>
-       <div className="lg:flexCenter">
-        <Button 
-          type="button"
-          title="Login"
-          icon="/user.svg"
-          variant="btn_dark_green"
-        />
-      </div> 
+      <div className="lg:flexCenter">
+        
+        <Link href="/user/login" passHref>
+          <Button
+            type="button"
+            title="Login"
+            icon="/user.svg"
+            variant="btn_dark_green"
+          />
+
+        </Link>
+      </div>
     </nav>
   )
 }
